@@ -1,0 +1,23 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# Binaries
+terraform
+vault
+consul
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Any local-specific overrides (provides way to do TF state, etc.)
+*_override.tf
+
+# Misc
+.DS_Store
+
+# Secret file
+terraform.secrets.ps1
