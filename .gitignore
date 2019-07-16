@@ -3,8 +3,11 @@
 
 # Binaries
 terraform
+terraform.exe
 vault
+vault.exe
 consul
+consul.exe
 
 # .tfstate files
 *.tfstate
